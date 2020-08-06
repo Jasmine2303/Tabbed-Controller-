@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68B6D51B24DC58F200617B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B6D51A24DC58F200617B2A /* AppDelegate.swift */; };
+		68B6D51D24DC58F200617B2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B6D51C24DC58F200617B2A /* SceneDelegate.swift */; };
+		68B6D51F24DC58F200617B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B6D51E24DC58F200617B2A /* ViewController.swift */; };
+		68B6D52224DC58F200617B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B6D52024DC58F200617B2A /* Main.storyboard */; };
+		68B6D52424DC58F300617B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B6D52324DC58F300617B2A /* Assets.xcassets */; };
+		68B6D52724DC58F300617B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B6D52524DC58F300617B2A /* LaunchScreen.storyboard */; };
+		68B6D53224DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B6D53124DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests.swift */; };
+		68B6D53D24DC58F400617B2A /* Jasmine_A_TabbedApp_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B6D53C24DC58F400617B2A /* Jasmine_A_TabbedApp_ExerciseUITests.swift */; };
+		68B6D54B24DC600100617B2A /* doghnuts-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68B6D54A24DC600100617B2A /* doghnuts-4.jpg */; };
+		68B6D54D24DC600800617B2A /* crockpot-desserts-1560971673.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68B6D54C24DC600800617B2A /* crockpot-desserts-1560971673.jpg */; };
+		68B6D54F24DC600F00617B2A /* Monster-Cookies-recipe-600x630.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68B6D54E24DC600F00617B2A /* Monster-Cookies-recipe-600x630.jpg */; };
+		68B6D55124DC602E00617B2A /* IMG_5075_1200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68B6D55024DC602E00617B2A /* IMG_5075_1200.jpg */; };
+		68B6D55424DC611500617B2A /* ca6cf7fd-ce2e-8e45-a477-05bdd78194a2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68B6D55324DC611500617B2A /* ca6cf7fd-ce2e-8e45-a477-05bdd78194a2.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68B6D52E24DC58F300617B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B6D50F24DC58F200617B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B6D51624DC58F200617B2A;
+			remoteInfo = Jasmine_A_TabbedApp_Exercise;
+		};
+		68B6D53924DC58F300617B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B6D50F24DC58F200617B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B6D51624DC58F200617B2A;
+			remoteInfo = Jasmine_A_TabbedApp_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68B6D51724DC58F200617B2A /* Jasmine_A_TabbedApp_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jasmine_A_TabbedApp_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B6D51A24DC58F200617B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68B6D51C24DC58F200617B2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68B6D51E24DC58F200617B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68B6D52124DC58F200617B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68B6D52324DC58F300617B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68B6D52624DC58F300617B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68B6D52824DC58F300617B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B6D52D24DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jasmine_A_TabbedApp_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B6D53124DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jasmine_A_TabbedApp_ExerciseTests.swift; sourceTree = "<group>"; };
+		68B6D53324DC58F300617B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B6D53824DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jasmine_A_TabbedApp_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B6D53C24DC58F400617B2A /* Jasmine_A_TabbedApp_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jasmine_A_TabbedApp_ExerciseUITests.swift; sourceTree = "<group>"; };
+		68B6D53E24DC58F400617B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B6D54A24DC600100617B2A /* doghnuts-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "doghnuts-4.jpg"; sourceTree = "<group>"; };
+		68B6D54C24DC600800617B2A /* crockpot-desserts-1560971673.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crockpot-desserts-1560971673.jpg"; sourceTree = "<group>"; };
+		68B6D54E24DC600F00617B2A /* Monster-Cookies-recipe-600x630.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monster-Cookies-recipe-600x630.jpg"; sourceTree = "<group>"; };
+		68B6D55024DC602E00617B2A /* IMG_5075_1200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5075_1200.jpg; sourceTree = "<group>"; };
+		68B6D55224DC606D00617B2A /* chd4rs3g_dessert_625x300_07_April_20.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = chd4rs3g_dessert_625x300_07_April_20.webp; sourceTree = "<group>"; };
+		68B6D55324DC611500617B2A /* ca6cf7fd-ce2e-8e45-a477-05bdd78194a2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ca6cf7fd-ce2e-8e45-a477-05bdd78194a2.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B6D51424DC58F200617B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B6D52A24DC58F300617B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B6D53524DC58F300617B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B6D50E24DC58F200617B2A = {
+			isa = PBXGroup;
+			children = (
+				68B6D51924DC58F200617B2A /* Jasmine_A_TabbedApp_Exercise */,
+				68B6D53024DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests */,
+				68B6D53B24DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseUITests */,
+				68B6D51824DC58F200617B2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B6D51824DC58F200617B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B6D51724DC58F200617B2A /* Jasmine_A_TabbedApp_Exercise.app */,
+				68B6D52D24DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests.xctest */,
+				68B6D53824DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B6D51924DC58F200617B2A /* Jasmine_A_TabbedApp_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				68B6D51A24DC58F200617B2A /* AppDelegate.swift */,
+				68B6D55324DC611500617B2A /* ca6cf7fd-ce2e-8e45-a477-05bdd78194a2.jpeg */,
+				68B6D55224DC606D00617B2A /* chd4rs3g_dessert_625x300_07_April_20.webp */,
+				68B6D55024DC602E00617B2A /* IMG_5075_1200.jpg */,
+				68B6D54E24DC600F00617B2A /* Monster-Cookies-recipe-600x630.jpg */,
+				68B6D54C24DC600800617B2A /* crockpot-desserts-1560971673.jpg */,
+				68B6D54A24DC600100617B2A /* doghnuts-4.jpg */,
+				68B6D51C24DC58F200617B2A /* SceneDelegate.swift */,
+				68B6D51E24DC58F200617B2A /* ViewController.swift */,
+				68B6D52024DC58F200617B2A /* Main.storyboard */,
+				68B6D52324DC58F300617B2A /* Assets.xcassets */,
+				68B6D52524DC58F300617B2A /* LaunchScreen.storyboard */,
+				68B6D52824DC58F300617B2A /* Info.plist */,
+			);
+			path = Jasmine_A_TabbedApp_Exercise;
+			sourceTree = "<group>";
+		};
+		68B6D53024DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				68B6D53124DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests.swift */,
+				68B6D53324DC58F300617B2A /* Info.plist */,
+			);
+			path = Jasmine_A_TabbedApp_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		68B6D53B24DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68B6D53C24DC58F400617B2A /* Jasmine_A_TabbedApp_ExerciseUITests.swift */,
+				68B6D53E24DC58F400617B2A /* Info.plist */,
+			);
+			path = Jasmine_A_TabbedApp_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B6D51624DC58F200617B2A /* Jasmine_A_TabbedApp_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B6D54124DC58F400617B2A /* Build configuration list for PBXNativeTarget "Jasmine_A_TabbedApp_Exercise" */;
+			buildPhases = (
+				68B6D51324DC58F200617B2A /* Sources */,
+				68B6D51424DC58F200617B2A /* Frameworks */,
+				68B6D51524DC58F200617B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jasmine_A_TabbedApp_Exercise;
+			productName = Jasmine_A_TabbedApp_Exercise;
+			productReference = 68B6D51724DC58F200617B2A /* Jasmine_A_TabbedApp_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68B6D52C24DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B6D54424DC58F400617B2A /* Build configuration list for PBXNativeTarget "Jasmine_A_TabbedApp_ExerciseTests" */;
+			buildPhases = (
+				68B6D52924DC58F300617B2A /* Sources */,
+				68B6D52A24DC58F300617B2A /* Frameworks */,
+				68B6D52B24DC58F300617B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B6D52F24DC58F300617B2A /* PBXTargetDependency */,
+			);
+			name = Jasmine_A_TabbedApp_ExerciseTests;
+			productName = Jasmine_A_TabbedApp_ExerciseTests;
+			productReference = 68B6D52D24DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68B6D53724DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B6D54724DC58F400617B2A /* Build configuration list for PBXNativeTarget "Jasmine_A_TabbedApp_ExerciseUITests" */;
+			buildPhases = (
+				68B6D53424DC58F300617B2A /* Sources */,
+				68B6D53524DC58F300617B2A /* Frameworks */,
+				68B6D53624DC58F300617B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B6D53A24DC58F300617B2A /* PBXTargetDependency */,
+			);
+			name = Jasmine_A_TabbedApp_ExerciseUITests;
+			productName = Jasmine_A_TabbedApp_ExerciseUITests;
+			productReference = 68B6D53824DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B6D50F24DC58F200617B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jasmine Alarcon";
+				TargetAttributes = {
+					68B6D51624DC58F200617B2A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					68B6D52C24DC58F300617B2A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 68B6D51624DC58F200617B2A;
+					};
+					68B6D53724DC58F300617B2A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 68B6D51624DC58F200617B2A;
+					};
+				};
+			};
+			buildConfigurationList = 68B6D51224DC58F200617B2A /* Build configuration list for PBXProject "Jasmine_A_TabbedApp_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B6D50E24DC58F200617B2A;
+			productRefGroup = 68B6D51824DC58F200617B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B6D51624DC58F200617B2A /* Jasmine_A_TabbedApp_Exercise */,
+				68B6D52C24DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests */,
+				68B6D53724DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B6D51524DC58F200617B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B6D54D24DC600800617B2A /* crockpot-desserts-1560971673.jpg in Resources */,
+				68B6D52724DC58F300617B2A /* LaunchScreen.storyboard in Resources */,
+				68B6D54F24DC600F00617B2A /* Monster-Cookies-recipe-600x630.jpg in Resources */,
+				68B6D52424DC58F300617B2A /* Assets.xcassets in Resources */,
+				68B6D55424DC611500617B2A /* ca6cf7fd-ce2e-8e45-a477-05bdd78194a2.jpeg in Resources */,
+				68B6D54B24DC600100617B2A /* doghnuts-4.jpg in Resources */,
+				68B6D52224DC58F200617B2A /* Main.storyboard in Resources */,
+				68B6D55124DC602E00617B2A /* IMG_5075_1200.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B6D52B24DC58F300617B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B6D53624DC58F300617B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B6D51324DC58F200617B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B6D51F24DC58F200617B2A /* ViewController.swift in Sources */,
+				68B6D51B24DC58F200617B2A /* AppDelegate.swift in Sources */,
+				68B6D51D24DC58F200617B2A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B6D52924DC58F300617B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B6D53224DC58F300617B2A /* Jasmine_A_TabbedApp_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B6D53424DC58F300617B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B6D53D24DC58F400617B2A /* Jasmine_A_TabbedApp_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68B6D52F24DC58F300617B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B6D51624DC58F200617B2A /* Jasmine_A_TabbedApp_Exercise */;
+			targetProxy = 68B6D52E24DC58F300617B2A /* PBXContainerItemProxy */;
+		};
+		68B6D53A24DC58F300617B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B6D51624DC58F200617B2A /* Jasmine_A_TabbedApp_Exercise */;
+			targetProxy = 68B6D53924DC58F300617B2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68B6D52024DC58F200617B2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B6D52124DC58F200617B2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68B6D52524DC58F300617B2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B6D52624DC58F300617B2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68B6D53F24DC58F400617B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68B6D54024DC58F400617B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B6D54224DC58F400617B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_TabbedApp_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-TabbedApp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68B6D54324DC58F400617B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_TabbedApp_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-TabbedApp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68B6D54524DC58F400617B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_TabbedApp_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-TabbedApp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jasmine_A_TabbedApp_Exercise.app/Jasmine_A_TabbedApp_Exercise";
+			};
+			name = Debug;
+		};
+		68B6D54624DC58F400617B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_TabbedApp_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-TabbedApp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jasmine_A_TabbedApp_Exercise.app/Jasmine_A_TabbedApp_Exercise";
+			};
+			name = Release;
+		};
+		68B6D54824DC58F400617B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_TabbedApp_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-TabbedApp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jasmine_A_TabbedApp_Exercise;
+			};
+			name = Debug;
+		};
+		68B6D54924DC58F400617B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jasmine_A_TabbedApp_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Jasmine-A-TabbedApp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jasmine_A_TabbedApp_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B6D51224DC58F200617B2A /* Build configuration list for PBXProject "Jasmine_A_TabbedApp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B6D53F24DC58F400617B2A /* Debug */,
+				68B6D54024DC58F400617B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B6D54124DC58F400617B2A /* Build configuration list for PBXNativeTarget "Jasmine_A_TabbedApp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B6D54224DC58F400617B2A /* Debug */,
+				68B6D54324DC58F400617B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B6D54424DC58F400617B2A /* Build configuration list for PBXNativeTarget "Jasmine_A_TabbedApp_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B6D54524DC58F400617B2A /* Debug */,
+				68B6D54624DC58F400617B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B6D54724DC58F400617B2A /* Build configuration list for PBXNativeTarget "Jasmine_A_TabbedApp_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B6D54824DC58F400617B2A /* Debug */,
+				68B6D54924DC58F400617B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B6D50F24DC58F200617B2A /* Project object */;
+}
